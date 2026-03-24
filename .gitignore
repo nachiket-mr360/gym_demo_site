@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# IDE Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Environment Variables
+.env
+.env.local
+.env.production
+
+# Build Output
+dist/
+build/
+
+# Temporary Files
+tmp/
+temp/
+
+# Image placeholders (if downloaded later)
+images/downloads/

@@ -1,0 +1,61 @@
+/* ========================================
+   DEBUG MODE - DISABLE ANIMATIONS
+   Use this to verify all sections are visible
+   ======================================== */
+
+/* Uncomment the line below to enable debug mode */
+/*
+* {
+    animation: none !important;
+    transition: none !important;
+    transform: none !important;
+}
+
+.reveal,
+.reveal-left,
+.reveal-right,
+.scale-reveal,
+.text-reveal,
+.fade-in-up,
+.zoom-in,
+.slide-in-left,
+.slide-in-right,
+.rotate-in {
+    opacity: 1 !important;
+    transform: none !important;
+}
+
+.reveal.active,
+.reveal-left.active,
+.reveal-right.active,
+.scale-reveal.active,
+.text-reveal.active,
+.fade-in-up.active,
+.zoom-in.active,
+.slide-in-left.active,
+.slide-in-right.active,
+.rotate-in.active {
+    opacity: 1 !important;
+    transform: none !important;
+}
+*/
+
+/* Debug borders - uncomment to add red borders to all sections */
+/*
+section {
+    border: 2px solid red !important;
+    position: relative;
+}
+
+section::before {
+    content: 'SECTION: ' attr(id);
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: red;
+    color: white;
+    padding: 5px 10px;
+    font-weight: bold;
+    z-index: 9999;
+}
+*/
